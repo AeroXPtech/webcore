@@ -81,41 +81,6 @@ header {
     background-position: contain;
 }
 
-.sidebar-left {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 0 10px 10px 0;
-    z-index: 1000;
-}
-
-.sidebar-left ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar-left li {
-    margin: 10px 0;
-    position: relative;
-}
-
-.sidebar-left a, .sidebar-left button {
-    color: white;
-    text-decoration: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.sidebar-left button:hover, .sidebar-left a:hover {
-    color: yellow;
-}
-
 .dropdown {
     display: none;
     list-style: none;

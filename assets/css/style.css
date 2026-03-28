@@ -5,6 +5,14 @@ body {
     background-size: cover;
     color: white;
     cursor: url(../cursors/select.cur) auto !important;
+    font-family: 'Pixel', sans-serif;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/fart.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .tbt {
@@ -12,63 +20,30 @@ body {
     font-weight: bold;
 }
 
-.article1 {
-    background-color: rgba(0, 0, 0, 0.438);
+.titleweb {
+    text-align: center;
+}
+
+.introduction {
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 200px
+    width: 350px;
+    margin-left: 1350px;
 }
 
-.article2 {
-    background-color: rgba(0, 0, 0, 0.438);
+.inspo {
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 40px;
-    margin-left: 200px;
+    width: 350px;
+    margin-left: 625px;
+    margin-top: 2px;
 }
 
-.article3 {
-    background-color: rgba(0, 0, 0, 0.438);
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 60px;
-    margin-left: 200px;
-}
-
-.sidebar-left {
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.438);
-    padding: 20px;
-    border-radius: 0 10px 10px 0;
-    z-index: 1000;
-}
-
-.sidebar-left ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar-left li {
-    margin: 10px 0;
-    position: relative;
-}
-
-.sidebar-left a, .sidebar-left button {
-    color: white;
-    text-decoration: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.sidebar-left button:hover, .sidebar-left a:hover {
-    color: rgb(6, 117, 6);
+.faaadware {
+    margin-left: 325px;
+    margin-top: 25px;
 }
 
 .chatroomads {
