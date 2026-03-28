@@ -1,0 +1,48 @@
+body {
+    background-image: url(../images/backgrounds/windows_stock_photos_28.jpg)
+}
+
+.chatroom-header-img {
+  height: 50px;
+}
+
+.chatroom-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chatroom-div iframe {
+  width: 903px;
+}
+
+strong {
+  color: #78b4fa;
+}
+
+@media (min-width: 0px) {
+  .chatroom-header-img {
+    display: none;
+    margin: 10px 10px 0px 0px;
+  }
+  .chatroom-div iframe {
+    height: 500px;
+  }
+}
+@media (min-width: 500px) {
+  .chatroom-header-img {
+    display: block;
+    float: left;
+  }
+}
+@media (min-width: 900px) {
+  .chatroom-div iframe {
+    height: 560px;
+  }
+}
+
+.chatroomads {
+    margin-bottom: 903px;
+    margin-right: 903px;
+}

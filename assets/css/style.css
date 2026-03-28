@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/backgrounds/beta_version_bg.jpg);
+    background-image: url(../images/backgrounds/windows_stock_photos_28.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -13,20 +13,35 @@ body {
 }
 
 .article1 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.438);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-left: 200px
 }
 
+.article2 {
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+.article3 {
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+}
 
 .sidebar-left {
     position: fixed;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.438);
     padding: 20px;
     border-radius: 0 10px 10px 0;
     z-index: 1000;
@@ -53,5 +68,10 @@ body {
 }
 
 .sidebar-left button:hover, .sidebar-left a:hover {
-    color: white;
+    color: rgb(6, 117, 6);
+}
+
+.chatroomads {
+    margin-right: 903px;
+    margin-bottom: 903px;
 }
