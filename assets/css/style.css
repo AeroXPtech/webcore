@@ -32,6 +32,29 @@ body {
     margin-left: 1350px;
 }
 
+.etc {
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    width: 350px;
+    margin-left: 1350px;
+    margin-top: 350px;
+}
+
+.cpright {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.audio {
+    position: fixed;
+    right: -355px;
+}
+
 .inspo {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;

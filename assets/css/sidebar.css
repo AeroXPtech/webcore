@@ -33,3 +33,39 @@
 .sidebar-left button:hover, .sidebar-left a:hover {
     color: rgb(6, 117, 6);
 }
+
+.navbar-top {
+    position: fixed;
+    left: -50;
+    top: -10;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: 1000;
+    width: auto;
+}
+
+.navbar-top ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-top li {
+    margin: 10px 0;
+    position: relative;
+}
+
+.navbar-top a, .navbar-top button {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navbar-top button:hover, .navbar-top a:hover {
+    color: rgb(6, 117, 6);
+}
